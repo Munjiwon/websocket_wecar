@@ -11,7 +11,7 @@ async def echo(websocket, path):
     async for message in websocket:
 
         print(message)
-        sleep(3)
+        sleep(15)
         await websocket.send("print")
 
 #ipconfig 주소
